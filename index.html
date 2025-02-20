@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
+    <!-- Meta Tags Essenciais -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="OGX ZELDA">
+    <meta name="description" content="Criação de sites profissionais na Itália. Desenvolvemos sites otimizados para SEO, rápidos e personalizados para pequenos negócios.">
+    <meta name="keywords" content="criação de sites Itália, web design Itália, SEO Itália, site profissional, desenvolvedor web Itália">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="it">
+
+    <!-- Meta Tags para Redes Sociais (Open Graph - Facebook, LinkedIn, etc.) -->
+    <meta property="og:title" content="Criação de Sites Profissionais na Itália">
+    <meta property="og:description" content="Desenvolvemos sites otimizados para SEO, rápidos e personalizados para pequenos negócios italianos.">
+    <meta property="og:image" content="URL_DA_IMAGEM_DE_DESTAQUE">
+    <meta property="og:url" content="https://ogx-zelda.github.io/TEXTESITE-/">
+    <meta property="og:type" content="website">
+
+    <!-- Meta Tags para Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Criação de Sites Profissionais na Itália">
+    <meta name="twitter:description" content="Desenvolvemos sites otimizados para SEO, rápidos e personalizados para pequenos negócios italianos.">
+    <meta name="twitter:image" content="URL_DA_IMAGEM_DE_DESTAQUE">
+
+    <!-- Favicon -->
+    <link rel="icon" href="URL_DO_FAVICON" type="image/png">
+
     <title>WebSmart Italia</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="logo-container">
-            <img src="DALL·E-2025-02-20-10.02.27-A-modern-and-professional-logo-for-_WebSmart-Italia_.png" 
-                 alt="Logo WebSmart Italia" width="150px" height="auto">
+            <img src="DALL·E-2025-02-20-10.02.27-A-modern-and-professional-logo-for-_WebSmart-Italia_.png" alt="Logo WebSmart Italia" width="150px" height="auto">
             <h1>WebSmart Italia</h1>  
         </div>
         
@@ -20,7 +42,6 @@
             <a href="sobre.html">ℹ️ Sulle</a>
         </nav>
         
-        <!-- Menu Hambúrguer -->
         <div class="hamburger-menu" id="hamburger-menu">
             <div class="bar"></div>
             <div class="bar"></div>
@@ -28,8 +49,6 @@
         </div>
     </header>
     
-
-    <!-- 🔹 Novo menu abaixo do header -->
     <nav class="menu-benefits">
         <ul>
             <li>🚀 Siti Web Professionali</li>
@@ -37,7 +56,6 @@
             <li>📍 SEO Locale per Google</li>
             <li>🛒 E-commerce Semplice</li>
             <li>⚡ Veloce e Reattivo</li>
-            
         </ul>
     </nav>
 
@@ -63,6 +81,14 @@
         <h2>🚀 Pronto a portare la tua attività online?</h2>
         <p>Contattaci ora per un sito web professionale su misura per te.</p>
         <a href="https://wa.me/seu-numero" class="btn">📲 Contattaci su WhatsApp</a>
+        
+        <!-- Formulário de Contato -->
+        <form action="mailto:seu-email@example.com" method="POST">
+            <input type="text" name="nome" placeholder="Il tuo nome" required>
+            <input type="email" name="email" placeholder="La tua email" required>
+            <textarea name="mensagem" placeholder="La tua richiesta" required></textarea>
+            <button type="submit" class="btn">Invia la tua richiesta</button>
+        </form>
     </section>
 
     <section class="dynamic-text">
@@ -81,105 +107,158 @@
         }
         window.onload = typeWriter;
     </script>
-<section class="responsive-section">
-    <h2>📱💻 Il tuo sito sarà perfetto su qualsiasi dispositivo!</h2>
-    <p>Oggi, più del 70% degli utenti naviga dal cellulare. Un sito responsivo significa più visibilità, più clienti e un'esperienza utente impeccabile.</p>
+
+    <section class="responsive-section">
+        <h2>📱💻 Il tuo sito sarà perfetto su qualsiasi dispositivo!</h2>
+        <p>Oggi, più del 70% degli utenti naviga dal cellulare. Un sito responsivo significa più visibilità, più clienti e un'esperienza utente impeccabile.</p>
+        
+        <div class="responsive-content">
+            <ul>
+                <li>✅ Adattabile a smartphone, tablet e PC</li>
+                <li>✅ Caricamento veloce per migliorare il posizionamento su Google</li>
+                <li>✅ Migliore esperienza per i tuoi clienti = più vendite!</li>
+            </ul>
+
+            <img src="site_responsivo-removebg-preview.png" alt="Demonstração de site responsivo">
+        </div>
+
+        <a href="#contato" class="btn">📩 Contattaci ora!</a>
+    </section>
+
+    <section class="seo-section">
+        <h2>🚀 Perché il SEO è fondamentale per il tuo business?</h2>
+        <p>Essere visibili su Google significa più clienti e più vendite! Un sito ottimizzato per i motori di ricerca ti aiuta a raggiungere le persone giuste nel momento giusto.</p>
+
+        <div class="seo-content">
+            <ul>
+                <li>🔎 **Migliore Posizionamento** – Il tuo sito apparirà nei primi risultati di ricerca.</li>
+                <li>📈 **Più Traffico Organico** – Attirerai più visitatori senza pagare per annunci.</li>
+                <li>🏆 **Maggiore Credibilità** – I clienti si fidano di aziende che compaiono su Google.</li>
+                <li>💰 **Maggiori Conversioni** – Un sito ben ottimizzato trasforma visitatori in clienti.</li>
+            </ul>
+
+            <img src="SO_GOOGLE-removebg-preview.png" alt="SEO Google">
+        </div>
+
+        <a href="#contato" class="btn">📞 Migliora il tuo posizionamento ora!</a>
+    </section>
+
+    <section class="faq">
+        <h2>❓ Domande frequenti</h2>
+        <details>
+            <summary>💰 Quanto costa un sito web?</summary>
+            <p>Dipende dal tipo di sito e dalle funzionalità. Contattaci per un preventivo gratuito!</p>
+        </details>
+        <details>
+            <summary>⏳ Quanto tempo ci vuole per creare un sito?</summary>
+            <p>In media, un sito semplice viene consegnato in 7-10 giorni lavorativi.</p>
+        </details>
+        <details>
+            <summary>🔧 Offrite assistenza dopo la consegna?</summary>
+            <p>Sì, possiamo gestire aggiornamenti, sicurezza e SEO mensile.</p>
+        </details>
+    </section>
+    <section class="projects">
+        <h2>🚀 I Nostri Progetti</h2>
+        <p>Esplora i progetti che abbiamo realizzato e scopri come possiamo creare qualcosa di unico per te!</p>
+        
+        <div class="project-list">
+            <!-- Projeto 1 -->
+            <div class="project-item">
+                <img src="URL_DA_IMAGEM_DO_PROJETO_1" alt="Projeto 1">
+                <div class="project-content">
+                    <h3>Nome do Projeto 1</h3>
+                    <p>Descrição curta sobre o projeto. Ex: "Sito web personalizzato per una piccola attività di ristorazione."</p>
+                    <div class="tech-stack">
+                        <img src="html-icon.png" alt="HTML">
+                        <img src="css-icon.png" alt="CSS">
+                    </div>
+                    <div class="project-feedback">
+                        <p>"Il sito ha trasformato il nostro business! Molto professionale e ben progettato."</p>
+                        <p><strong>Cliente X</strong>, <em>Ristorante ABC</em></p>
+                    </div>
+                    <a href="link-para-o-projeto" class="btn">Scopri di più</a>
+                </div>
+            </div>
     
-    <div class="responsive-content">
-        <ul>
-            <li>✅ Adattabile a smartphone, tablet e PC</li>
-            <li>✅ Caricamento veloce per migliorare il posizionamento su Google</li>
-            <li>✅ Migliore esperienza per i tuoi clienti = più vendite!</li>
-        </ul>
-
-        <img src="site_responsivo-removebg-preview.png" alt="Demonstração de site responsivo">
-    </div>
-
-    <a href="#contato" class="btn">📩 Contattaci ora!</a>
-</section>
-
-<section class="seo-section">
-    <h2>🚀 Perché il SEO è fondamentale per il tuo business?</h2>
-    <p>Essere visibili su Google significa più clienti e più vendite! Un sito ottimizzato per i motori di ricerca ti aiuta a raggiungere le persone giuste nel momento giusto.</p>
-
-    <div class="seo-content">
-        <ul>
-            <li>🔎 **Migliore Posizionamento** – Il tuo sito apparirà nei primi risultati di ricerca.</li>
-            <li>📈 **Più Traffico Organico** – Attirerai più visitatori senza pagare per annunci.</li>
-            <li>🏆 **Maggiore Credibilità** – I clienti si fidano di aziende che compaiono su Google.</li>
-            <li>💰 **Maggiori Conversioni** – Un sito ben ottimizzato trasforma visitatori in clienti.</li>
-        </ul>
-
-        <img src="SO_GOOGLE-removebg-preview.png" alt="SEO Google">
-    </div>
-
-    <a href="#contato" class="btn">📞 Migliora il tuo posizionamento ora!</a>
-</section>
-
-<section class="faq">
-    <h2>❓ Domande frequenti</h2>
-    <details>
-        <summary>💰 Quanto costa un sito web?</summary>
-        <p>Dipende dal tipo di sito e dalle funzionalità. Contattaci per un preventivo gratuito!</p>
-    </details>
-    <details>
-        <summary>⏳ Quanto tempo ci vuole per creare un sito?</summary>
-        <p>In media, un sito semplice viene consegnato in 7-10 giorni lavorativi.</p>
-    </details>
-    <details>
-        <summary>🔧 Offrite assistenza dopo la consegna?</summary>
-        <p>Sì, possiamo gestire aggiornamenti, sicurezza e SEO mensile.</p>
-    </details>
-</section>
-
-<section class="testimonials">
-    <h2>💬 Cosa dicono i nostri clienti?</h2>
-    <div class="testimonial">
-        <p>⭐⭐⭐⭐⭐ "Grazie a WebSmart Italia, ora la mia attività ha più visibilità online!"</p>
-        <h4>- Marco Rossi, Ristorante Bella Italia</h4>
-    </div>
-    <div class="testimonial">
-        <p>⭐⭐⭐⭐⭐ "Servizio professionale e veloce! Il mio negozio online è perfetto."</p>
-        <h4>- Giulia Bianchi, Boutique Moda</h4>
-    </div>
-</section>
-
-<footer class="footer">
-    <div class="footer-container">
-        <div class="footer-logo">
-            <img src="DALL·E-2025-02-20-10.02.27-A-modern-and-professional-logo-for-_WebSmart-Italia_.png" alt="WebSmart Italia" width="120">
+            <!-- Projeto 2 -->
+            <div class="project-item">
+                <img src="URL_DA_IMAGEM_DO_PROJETO_2" alt="Projeto 2">
+                <div class="project-content">
+                    <h3>Nome do Projeto 2</h3>
+                    <p>Descrição curta sobre o projeto. Ex: "Creazione di una landing page per una campagna di marketing."</p>
+                    <div class="tech-stack">
+                        <img src="wordpress-icon.png" alt="WordPress">
+                        <img src="js-icon.png" alt="JavaScript">
+                    </div>
+                    <div class="project-feedback">
+                        <p>"Abbiamo ottenuto un incremento significativo nelle conversioni. Consigliatissimo!"</p>
+                        <p><strong>Cliente Y</strong>, <em>Campagna di Marketing Digitale</em></p>
+                    </div>
+                    <a href="link-para-o-projeto" class="btn">Scopri di più</a>
+                </div>
+            </div>
+    
+            <!-- Adicionar mais projetos conforme necessário -->
         </div>
-        <div class="footer-links">
-            <a href="#">Home</a>
-            <a href="#">Servizi</a>
-            <a href="#">Contatto</a>
-            <a href="#">Privacy Policy</a>
+    </section>
+    
+    
+
+    <section class="testimonials">
+        <h2>💬 Cosa dicono i nostri clienti?</h2>
+        <div class="testimonial">
+            <p>⭐⭐⭐⭐⭐ "Grazie a WebSmart Italia, ora la mia attività ha più visibilità online!"</p>
+            <h4>- Marco Rossi, Ristorante Bella Italia</h4>
         </div>
-        <div class="footer-social">
-            <a href="#"><img src="https://th.bing.com/th/id/R.be7eb9bd993b5bb9d22d8f57fdd528b0?rik=ji76rVK7mLLq3w&pid=ImgRaw&r=0" alt="Facebook"></a>
-            <a href="#"><img src="https://th.bing.com/th/id/OIP.q8SJPLoIfpD88NYXFefUdwHaHa?rs=1&pid=ImgDetMain" alt="Instagram"></a>
-            <a href="#"><img src="https://th.bing.com/th/id/OIP.ljyCoqmIIR1ENHxnC5LdYAHaHa?rs=1&pid=ImgDetMain" alt="LinkedIn"></a>
+        <div class="testimonial">
+            <p>⭐⭐⭐⭐⭐ "Servizio professionale e veloce! Il mio negozio online è perfetto."</p>
+            <h4>- Giulia Bianchi, Boutique Moda</h4>
         </div>
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; 2025 WebSmart Italia. Tutti i diritti riservati.</p>
-    </div>
-</footer>
+        <div class="testimonial">
+            <p>⭐⭐⭐⭐⭐ "Il mio sito web è finalmente visibile su Google! Ho ricevuto molti più clienti grazie al SEO locale."</p>
+            <h4>- Luca Verdi, Negozio di Elettronica</h4>
+        </div>
+        <div class="testimonial">
+            <p>⭐⭐⭐⭐⭐ "WebSmart Italia ha creato un sito web professionale che rappresenta veramente la mia azienda. Consiglio vivamente!"</p>
+            <h4>- Maria Ferrari, Studio Legale</h4>
+        </div>
+        <div class="testimonial">
+            <p>⭐⭐⭐⭐⭐ "Amo il design del mio nuovo sito. È moderno, veloce e attira più clienti. Grazie per aver reso tutto così facile!"</p>
+            <h4>- Andrea Gallo, Fitness Studio</h4>
+        </div>
+        <div class="testimonial">
+            <p>⭐⭐⭐⭐⭐ "Ho lavorato con WebSmart Italia per ottimizzare il mio sito per il SEO locale, e i risultati sono stati incredibili. Non potrei essere più felice!"</p>
+            <h4>- Elena Russo, Agenzia Immobiliare</h4>
+        </div>
+        <div class="testimonial">
+            <p>⭐⭐⭐⭐⭐ "Abbiamo visto un aumento immediato di traffico e vendite online dopo aver implementato la loro soluzione e-commerce. Un servizio eccellente!"</p>
+            <h4>- Giovanni Moretti, Negozio di Articoli Sportivi</h4>
+        </div>
+        <div class="testimonial">
+            <p>⭐⭐⭐⭐⭐ "WebSmart Italia ha superato le mie aspettative. Ho avuto un sito web personalizzato, ottimizzato e pronto per la SEO in pochissimo tempo!"</p>
+            <h4>- Carla Lombardi, Artigiana di Prodotti Locali</h4>
+        </div>
+        </div>
+    </section>
 
-<script>
-   const hamburger = document.querySelector('.hamburger-menu');
-const menu = document.querySelector('.main-menu');
-
-hamburger.addEventListener('click', () => {
-    menu.classList.toggle('active');
-});
-
-
-
-</script>
-
-
-<script src="document.js"></script>
-
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="DALL·E-2025-02-20-10.02.27-A-modern-and-professional-logo-for-_WebSmart-Italia_.png" alt="WebSmart Italia" width="120">
+            </div>
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">Servizi</a>
+                <a href="#">Contatto</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><img src="https://th.bing.com/th/id/OIP._PIsq6aRHjFZwwTb7akV7QHaF2?pid=ImgDet&rs=1" alt="Facebook"></a>
+                <a href="#"><img src="https://i.pinimg.com/originals/57/5a/c6/575ac676ba5d289f54a74edb9c06fc96.jpg" alt="Instagram"></a>
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Whatsapp.svg/1200px-Whatsapp.svg.png" alt="Whatsapp"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
