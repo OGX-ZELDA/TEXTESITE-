@@ -1,0 +1,657 @@
+
+body {
+    background-color: #FAFAFA;
+}
+
+header {
+    padding: 30px 30px 30px 30px ;
+    display: flex;
+    background-color: #007BFF;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a { 
+    font-size: 30px;
+padding: 20px;   
+text-decoration: none;
+font-weight: 500;
+color: white;
+
+}
+
+header img  {
+    display: flex;
+    padding-left: 33px;
+}
+
+header {
+    margin: 15px;
+    border-radius: 30px;
+}
+
+
+/* Estilo do menu de benefícios */
+.menu-benefits {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu-benefits ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-benefits li {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.why-choose {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.benefits-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.benefit {
+    max-width: 300px;
+    background: #F8F9FA;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta {
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+}
+
+.btn {
+    background-color: #FFC107;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.dynamic-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    padding: 20px 0;
+}
+
+
+.responsive-section {
+    text-align: center;
+    padding: 50px;
+    background: #f8f9fa;
+}
+
+.responsive-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.responsive-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.responsive-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.responsive-content ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    text-align: left;
+    max-width: 400px;
+}
+
+.responsive-content img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    display: inline-block;
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+  
+.seo-section {
+    text-align: center;
+    padding: 50px;
+    background: #f8f9fa;
+}
+
+.seo-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.seo-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.seo-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.seo-content ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    text-align: left;
+    max-width: 400px;
+}
+
+.seo-content ul li {
+    background: #007BFF;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.seo-content ul li strong {
+    color: #FFD700; /* Destaque para o título dentro do item */
+}
+
+.seo-content ul li:hover {
+    transform: scale(1.05);
+    background: #0056b3;
+}
+
+.seo-content img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    display: inline-block;
+    background: #007BFF;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+.faq {
+    text-align: center;
+    padding: 40px;
+}
+
+/* Estilos gerais para a seção de depoimentos */
+.testimonials {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f9fa;
+}
+
+.testimonials h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+.testimonial:hover {
+    transform: translateY(-5px);
+}
+
+/* Adicionando aspas estilizadas */
+.testimonial::before {
+    content: "“";
+    font-size: 50px;
+    color: #007BFF;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    opacity: 0.3;
+}
+
+.testimonial p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Estilizando o <details> para FAQs */
+details {
+    background: #ffffff;
+    padding: 15px;
+    margin: 15px auto;
+    width: 80%;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+details:hover {
+    background: #eef3f7;
+    transform: scale(1.02);
+}
+
+details summary {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+details[open] {
+    background: #e9f2ff;
+    border-left: 5px solid #007BFF;
+}
+
+/* Melhorando responsividade */
+@media (max-width: 768px) {
+    .testimonial {
+        padding: 15px;
+    }
+
+    details {
+        width: 90%;
+    }
+}
+
+.footer {
+    background: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    max-width: 120px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: #cce5ff;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+    transition: 0.3s;
+}
+
+.footer-social img:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+
+/* Responsividade para telas com até 444px */
+@media (max-width: 444px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    header nav a {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    header img {
+        padding-left: 0;
+    }
+
+    .menu-benefits ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .benefits-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .benefit {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .cta {
+        padding: 20px;
+    }
+
+    .dynamic-text {
+        font-size: 20px;
+    }
+
+    .responsive-section,
+    .seo-section {
+        padding: 30px 10px;
+    }
+
+    .responsive-content,
+    .seo-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .responsive-content img,
+    .seo-content img {
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .faq {
+        padding: 30px 10px;
+    }
+
+    .testimonials {
+        padding: 40px 10px;
+    }
+
+    .testimonial {
+        padding: 15px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .footer-social {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+body {
+    background-color: #FAFAFA;
+}
+
+header {
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    background-color: #007BFF;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a {
+    font-size: 30px;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+header img {
+    display: flex;
+    padding-left: 33px;
+}
+
+header {
+    margin: 15px;
+    border-radius: 30px;
+}
+
+/* Responsividade para telas com até 444px - Não afeta telas maiores */
+@media (max-width: 444px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    header nav a {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    header img {
+        padding-left: 0;
+    }
+}
+
+
+body {
+    background-color: #FAFAFA;
+}
+
+header {
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    background-color: #007BFF;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+header nav a {
+    font-size: 30px;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+header img {
+    display: flex;
+    padding-left: 33px;
+}
+
+header {
+    margin: 15px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo do menu no header */
+header nav {
+    display: flex;
+    justify-content: flex-end; /* Alinha os itens à direita */
+    gap: 20px; /* Espaçamento entre os links */
+}
+
+/* Estilo dos links do menu */
+header nav a {
+    font-size: 30px;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+/* Exibição de links no menu principal em telas maiores */
+.main-menu {
+    display: flex; /* Garantir que o menu principal esteja visível */
+    gap: 20px;
+}
+
+/* Estilo para o Menu Hambúrguer */
+.hamburger-menu {
+    display: none; /* Menu hambúrguer oculto por padrão */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.hamburger-menu .bar {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Mostrar o Menu Hambúrguer em telas pequenas */
+@media (max-width: 768px) {
+    .main-menu {
+        display: none; /* Menu oculto em telas pequenas */
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #007BFF;
+        padding: 10px 0;
+        z-index: 10;
+    }
+
+    .main-menu a {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .hamburger-menu {
+        display: flex; /* Mostrar o hambúrguer */
+    }
+
+    .main-menu.active {
+        display: flex; /* Mostrar o menu quando a classe active for adicionada */
+    }
+}
+
+/* Exibição dos botões no header quando a tela for muito pequena (abaixo de 444px) */
+@media (max-width: 444px) {
+    header nav a {
+        font-size: 24px; /* Ajuste de tamanho do texto */
+        padding: 10px; /* Ajuste de padding */
+    }
+}
